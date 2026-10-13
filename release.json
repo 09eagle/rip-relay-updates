@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "product": "Rip Relay",
-  "version": "1.0.3",
-  "platform": "1.0.3",
+  "version": "1.0.4",
+  "platform": "1.0.4",
   "channel": "preview",
-  "asset": "RipRelay-Universal-PREVIEW-1.0.3.zip",
-  "drive_file_id": "1Lqdz8zc0O0zRw4tUyvOwqvzklbdn7qbB",
-  "download_url": "https://drive.usercontent.google.com/download?id=1Lqdz8zc0O0zRw4tUyvOwqvzklbdn7qbB&export=download&confirm=t",
-  "view_url": "https://drive.google.com/file/d/1Lqdz8zc0O0zRw4tUyvOwqvzklbdn7qbB/view",
-  "sha256": "846e27a4078281c9b728f423f38f3b3cefa2343ca82db8a762631ecff517e62a",
-  "size": 33294101,
+  "asset": "RipRelay-Universal-PREVIEW-1.0.4.zip",
+  "drive_file_id": "1RHP1mZg4Pfd-9338v6Q2SIj2Oe_vV-rc",
+  "download_url": "https://drive.usercontent.google.com/download?id=1RHP1mZg4Pfd-9338v6Q2SIj2Oe_vV-rc&export=download&confirm=t",
+  "view_url": "https://drive.google.com/file/d/1RHP1mZg4Pfd-9338v6Q2SIj2Oe_vV-rc/view",
+  "sha256": "b73bf8e4c45e226eaa41e472d080e79a55ccb9a3a0da407fc87d57058860f991",
+  "size": 33296388,
   "components": {
-    "Supervisor": "1.0.3",
-    "RadarSentinel": "6.0.16",
+    "Supervisor": "1.0.4",
+    "RadarSentinel": "6.0.17",
     "SocialForge": "18.4.7",
     "ConsumerWeb": "0.1.0",
     "RadarBrain": "0.7.0",
     "AccountGateway": "0.5"
   },
-  "notes": "PREVIEW. Fixes 'startup failed: application has been destroyed' after updating. Phone (ntfy) gets service problems and the PKC queue alert; Discord gets drops, stock, draws and carts. One PKC poller only; a PKC block pauses 45 min first (tray: Resume PKC checks now). Updates now also found via a public GitHub feed. Radar Sentinel 6.0.16."
+  "notes": "PREVIEW. Monitoring restarts by itself after updates (worker was left off while Sentinel sat in the tray). Target: one 30-60 min pause of the Target API after a block, Chrome page reads use the page's own data (price, stock, seller), and Target shows LIMITED instead of blind while pausing (no phone alert). Radar Sentinel 6.0.17."
 }
