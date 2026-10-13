@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "product": "Rip Relay",
-  "version": "1.0.4",
-  "platform": "1.0.4",
+  "version": "1.0.5",
+  "platform": "1.0.5",
   "channel": "preview",
-  "asset": "RipRelay-Universal-PREVIEW-1.0.4.zip",
-  "drive_file_id": "1RHP1mZg4Pfd-9338v6Q2SIj2Oe_vV-rc",
-  "download_url": "https://drive.usercontent.google.com/download?id=1RHP1mZg4Pfd-9338v6Q2SIj2Oe_vV-rc&export=download&confirm=t",
-  "view_url": "https://drive.google.com/file/d/1RHP1mZg4Pfd-9338v6Q2SIj2Oe_vV-rc/view",
-  "sha256": "b73bf8e4c45e226eaa41e472d080e79a55ccb9a3a0da407fc87d57058860f991",
-  "size": 33296388,
+  "asset": "RipRelay-Universal-PREVIEW-1.0.5.zip",
+  "drive_file_id": "1gGxDafPzp1gKVAyGBVq6RNQmEocFXRPN",
+  "download_url": "https://drive.usercontent.google.com/download?id=1gGxDafPzp1gKVAyGBVq6RNQmEocFXRPN&export=download&confirm=t",
+  "view_url": "https://drive.google.com/file/d/1gGxDafPzp1gKVAyGBVq6RNQmEocFXRPN/view",
+  "sha256": "7c1ef15afd129fa947344cc7c4f15faa19b0fdc40cd8fae81e5e6b4bf8f346a1",
+  "size": 33300600,
   "components": {
-    "Supervisor": "1.0.4",
-    "RadarSentinel": "6.0.17",
+    "Supervisor": "1.0.5",
+    "RadarSentinel": "6.0.18",
     "SocialForge": "18.4.7",
     "ConsumerWeb": "0.1.0",
     "RadarBrain": "0.7.0",
     "AccountGateway": "0.5"
   },
-  "notes": "PREVIEW. Monitoring restarts by itself after updates (worker was left off while Sentinel sat in the tray). Target: one 30-60 min pause of the Target API after a block, Chrome page reads use the page's own data (price, stock, seller), and Target shows LIMITED instead of blind while pausing (no phone alert). Radar Sentinel 6.0.17."
+  "notes": "1.0.5: PKC queue detection (strong Queue-it/waiting-room signals, gate-page confirm probe, queue watch, UPCOMING heads-up, live alert links TCG page)"
 }
