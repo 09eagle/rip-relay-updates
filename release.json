@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "product": "Rip Relay",
-  "version": "1.0.5",
-  "platform": "1.0.5",
+  "version": "1.0.6",
+  "platform": "1.0.6",
   "channel": "preview",
-  "asset": "RipRelay-Universal-PREVIEW-1.0.5.zip",
-  "drive_file_id": "1gGxDafPzp1gKVAyGBVq6RNQmEocFXRPN",
-  "download_url": "https://drive.usercontent.google.com/download?id=1gGxDafPzp1gKVAyGBVq6RNQmEocFXRPN&export=download&confirm=t",
-  "view_url": "https://drive.google.com/file/d/1gGxDafPzp1gKVAyGBVq6RNQmEocFXRPN/view",
-  "sha256": "7c1ef15afd129fa947344cc7c4f15faa19b0fdc40cd8fae81e5e6b4bf8f346a1",
-  "size": 33300600,
+  "asset": "RipRelay-Universal-PREVIEW-1.0.6.zip",
+  "drive_file_id": "1y4tNbzJRC8GdwTZBL3lVbQUa6He5Dz9l",
+  "download_url": "https://drive.usercontent.google.com/download?id=1y4tNbzJRC8GdwTZBL3lVbQUa6He5Dz9l&export=download&confirm=t",
+  "view_url": "https://drive.google.com/file/d/1y4tNbzJRC8GdwTZBL3lVbQUa6He5Dz9l/view",
+  "sha256": "427f00c942012f723cfa750ca0368ad485e0d0e3c4626cdc3741aa013cb92a28",
+  "size": 34049255,
   "components": {
-    "Supervisor": "1.0.5",
-    "RadarSentinel": "6.0.18",
+    "Supervisor": "1.0.6",
+    "RadarSentinel": "6.0.19",
     "SocialForge": "18.4.7",
     "ConsumerWeb": "0.1.0",
     "RadarBrain": "0.7.0",
     "AccountGateway": "0.5"
   },
-  "notes": "1.0.5: PKC queue detection (strong Queue-it/waiting-room signals, gate-page confirm probe, queue watch, UPCOMING heads-up, live alert links TCG page)"
+  "notes": "1.0.6: 'Walmart Wednesday' only on a real Walmart queue; GT/Walmart near-retail hits labelled 'Walmart price drop near retail'; quiet price/MSRP footer line; Walmart draw alerts as one image card (real thumbnails, asking price, MSRP, x2 multi-packs, drawing start); multi-pack MSRP = qty x unit everywhere; FMV shown only from real sold data (hidden for now); Pillow installed on update. Radar Sentinel 6.0.19."
 }
