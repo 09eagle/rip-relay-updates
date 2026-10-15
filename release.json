@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "product": "Rip Relay",
-  "version": "1.0.7",
-  "platform": "1.0.7",
+  "version": "1.0.8",
+  "platform": "1.0.8",
   "channel": "preview",
-  "asset": "RipRelay-Universal-PREVIEW-1.0.7.zip",
-  "drive_file_id": "194H3eKzHZEK8Zj7MnryDgFsLYl5oSjbG",
-  "download_url": "https://drive.usercontent.google.com/download?id=194H3eKzHZEK8Zj7MnryDgFsLYl5oSjbG&export=download&confirm=t",
-  "view_url": "https://drive.google.com/file/d/194H3eKzHZEK8Zj7MnryDgFsLYl5oSjbG/view",
-  "sha256": "de6e8f6a222f441b2544d5846a7dce5bd574cdf1012912746553d09979f9043e",
-  "size": 34055845,
+  "asset": "RipRelay-Universal-PREVIEW-1.0.8.zip",
+  "drive_file_id": "1dZfEPtOycG4VWlfbV_i2oD8m7SROmZd5",
+  "download_url": "https://drive.usercontent.google.com/download?id=1dZfEPtOycG4VWlfbV_i2oD8m7SROmZd5&export=download&confirm=t",
+  "view_url": "https://drive.google.com/file/d/1dZfEPtOycG4VWlfbV_i2oD8m7SROmZd5/view",
+  "sha256": "df838c5b22882d9719facaca0fd7fa22125b8abaf3c14e0b9950ff1be43f3f2f",
+  "size": 34059831,
   "components": {
-    "Supervisor": "1.0.7",
-    "RadarSentinel": "6.0.20",
+    "Supervisor": "1.0.8",
+    "RadarSentinel": "6.0.21",
     "SocialForge": "18.4.7",
     "ConsumerWeb": "0.1.0",
     "RadarBrain": "0.7.0",
     "AccountGateway": "0.5"
   },
-  "notes": "1.0.7: Sealed FMV collector via PokeTrace free plan: real eBay sold averages (3+ sales, exact match) feed the draw-card FMV line; max 100 lookups/day. Radar Sentinel 6.0.20."
+  "notes": "Walmart draw card: date/time header (MST), Walmart's real prices, each item's own photo, Pok\u00e9mon-only tiles, better multi-pack MSRP; ended/closed draws no longer alert."
 }
