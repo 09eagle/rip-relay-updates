@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "product": "Rip Relay",
-  "version": "1.0.8",
-  "platform": "1.0.8",
+  "version": "1.0.9",
+  "platform": "1.0.9",
   "channel": "preview",
-  "asset": "RipRelay-Universal-PREVIEW-1.0.8.zip",
-  "drive_file_id": "1dZfEPtOycG4VWlfbV_i2oD8m7SROmZd5",
-  "download_url": "https://drive.usercontent.google.com/download?id=1dZfEPtOycG4VWlfbV_i2oD8m7SROmZd5&export=download&confirm=t",
-  "view_url": "https://drive.google.com/file/d/1dZfEPtOycG4VWlfbV_i2oD8m7SROmZd5/view",
-  "sha256": "df838c5b22882d9719facaca0fd7fa22125b8abaf3c14e0b9950ff1be43f3f2f",
-  "size": 34059831,
+  "asset": "RipRelay-Universal-PREVIEW-1.0.9.zip",
+  "drive_file_id": "1Z2FVPCf9BzUsZ5tdWCup4FmyHnKnZc7K",
+  "download_url": "https://drive.usercontent.google.com/download?id=1Z2FVPCf9BzUsZ5tdWCup4FmyHnKnZc7K&export=download&confirm=t",
+  "view_url": "https://drive.google.com/file/d/1Z2FVPCf9BzUsZ5tdWCup4FmyHnKnZc7K/view",
+  "sha256": "6a061e61316d30eb4ff91a1df3166f6af25dc59f6aef7366c4051881d7bd7226",
+  "size": 34068861,
   "components": {
-    "Supervisor": "1.0.8",
-    "RadarSentinel": "6.0.21",
+    "Supervisor": "1.0.9",
+    "RadarSentinel": "6.0.22",
     "SocialForge": "18.4.7",
     "ConsumerWeb": "0.1.0",
     "RadarBrain": "0.7.0",
     "AccountGateway": "0.5"
   },
-  "notes": "Walmart draw card: date/time header (MST), Walmart's real prices, each item's own photo, Pok\u00e9mon-only tiles, better multi-pack MSRP; ended/closed draws no longer alert."
+  "notes": "Pok\u00e9mon Center: a queue/check page now sends an urgent 'possible queue' alert instead of pausing; pauses only on real blocks (30-60 min, shows 'paused until' time). Watched product IDs are checked for pages going live. Updates still install automatically, but never 6 AM-1 PM MST, during a queue, drop mode, or right after an alert. Faster Pok\u00e9mon Center checks 6:00 AM-12:30 PM MST."
 }
