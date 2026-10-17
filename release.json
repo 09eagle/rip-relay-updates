@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "product": "Rip Relay",
-  "version": "1.0.9",
-  "platform": "1.0.9",
+  "version": "1.0.10",
+  "platform": "1.0.10",
   "channel": "preview",
-  "asset": "RipRelay-Universal-PREVIEW-1.0.9.zip",
-  "drive_file_id": "1Z2FVPCf9BzUsZ5tdWCup4FmyHnKnZc7K",
-  "download_url": "https://drive.usercontent.google.com/download?id=1Z2FVPCf9BzUsZ5tdWCup4FmyHnKnZc7K&export=download&confirm=t",
-  "view_url": "https://drive.google.com/file/d/1Z2FVPCf9BzUsZ5tdWCup4FmyHnKnZc7K/view",
-  "sha256": "6a061e61316d30eb4ff91a1df3166f6af25dc59f6aef7366c4051881d7bd7226",
-  "size": 34068861,
+  "asset": "RipRelay-Universal-PREVIEW-1.0.10.zip",
+  "drive_file_id": "14D5jjeccKnVSopVbYAsQTIY9fo1q1flx",
+  "download_url": "https://drive.usercontent.google.com/download?id=14D5jjeccKnVSopVbYAsQTIY9fo1q1flx&export=download&confirm=t",
+  "view_url": "https://drive.google.com/file/d/14D5jjeccKnVSopVbYAsQTIY9fo1q1flx/view",
+  "sha256": "958a6de69f8fa702e6ecc4984140ec1437a583db9fadae266ecb9ed97dd0c058",
+  "size": 34071384,
   "components": {
     "Supervisor": "1.0.9",
-    "RadarSentinel": "6.0.22",
+    "RadarSentinel": "6.0.23",
     "SocialForge": "18.4.7",
     "ConsumerWeb": "0.1.0",
     "RadarBrain": "0.7.0",
     "AccountGateway": "0.5"
   },
-  "notes": "Pok\u00e9mon Center: a queue/check page now sends an urgent 'possible queue' alert instead of pausing; pauses only on real blocks (30-60 min, shows 'paused until' time). Watched product IDs are checked for pages going live. Updates still install automatically, but never 6 AM-1 PM MST, during a queue, drop mode, or right after an alert. Faster Pok\u00e9mon Center checks 6:00 AM-12:30 PM MST."
+  "notes": "Sentinel 6.0.23: Pokemon Center queue detection starts before the queue - pre-queue signals trigger drop mode, faster 60s checks in drop windows, and an urgent alert if blocked during a drop. Target drops now push to your phone, and new drop products no longer get silently dropped for lack of a reference price. Missed-drop post-mortem tool included. Updates still install automatically, but never 6 AM-1 PM MST, during a queue, drop mode, or right after an alert."
 }
