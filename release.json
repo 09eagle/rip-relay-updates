@@ -1,22 +1,22 @@
 {
   "schema": 1,
   "product": "Rip Relay",
-  "version": "1.0.10",
-  "platform": "1.0.10",
+  "version": "1.0.11",
+  "platform": "1.0.11",
   "channel": "preview",
-  "asset": "RipRelay-Universal-PREVIEW-1.0.10.zip",
-  "drive_file_id": "14D5jjeccKnVSopVbYAsQTIY9fo1q1flx",
-  "download_url": "https://drive.usercontent.google.com/download?id=14D5jjeccKnVSopVbYAsQTIY9fo1q1flx&export=download&confirm=t",
-  "view_url": "https://drive.google.com/file/d/14D5jjeccKnVSopVbYAsQTIY9fo1q1flx/view",
-  "sha256": "958a6de69f8fa702e6ecc4984140ec1437a583db9fadae266ecb9ed97dd0c058",
-  "size": 34071384,
+  "asset": "RipRelay-Universal-PREVIEW-1.0.11.zip",
+  "drive_file_id": "1RiHu2mUt-w4nr67BPPlG_ajpMKVV2gdW",
+  "download_url": "https://drive.usercontent.google.com/download?id=1RiHu2mUt-w4nr67BPPlG_ajpMKVV2gdW&export=download&confirm=t",
+  "view_url": "https://drive.google.com/file/d/1RiHu2mUt-w4nr67BPPlG_ajpMKVV2gdW/view",
+  "sha256": "d952a32c662920f41cd6f5ca8c5965beeef2cfc904b1ca55b16cb95be47749c8",
+  "size": 34083883,
   "components": {
-    "Supervisor": "1.0.9",
-    "RadarSentinel": "6.0.23",
+    "Supervisor": "1.0.10",
+    "RadarSentinel": "6.0.24",
     "SocialForge": "18.4.7",
     "ConsumerWeb": "0.1.0",
     "RadarBrain": "0.7.0",
     "AccountGateway": "0.5"
   },
-  "notes": "Sentinel 6.0.23: Pokemon Center queue detection starts before the queue - pre-queue signals trigger drop mode, faster 60s checks in drop windows, and an urgent alert if blocked during a drop. Target drops now push to your phone, and new drop products no longer get silently dropped for lack of a reference price. Missed-drop post-mortem tool included. Updates still install automatically, but never 6 AM-1 PM MST, during a queue, drop mode, or right after an alert."
+  "notes": "Rip Relay 1.0.11: Radar Sentinel 6.0.24 sends only Walmart draw alerts (Discord + draw card); all other monitoring, Chrome and service notices are paused. Settings > 'Walmart draws only' turns full monitoring back on."
 }
